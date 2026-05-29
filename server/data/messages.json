@@ -1,0 +1,148 @@
+{
+  "messages": [
+    {
+      "session_id": "06c5acdc-7fa5-494e-ae81-b3be3c4d5c0a",
+      "role": "user",
+      "content": "hi",
+      "timestamp": "2026-03-29T06:00:30.761Z"
+    },
+    {
+      "session_id": "06c5acdc-7fa5-494e-ae81-b3be3c4d5c0a",
+      "role": "ai",
+      "content": "Hello! How can I help you today?",
+      "timestamp": "2026-03-29T06:00:30.763Z"
+    },
+    {
+      "session_id": "a194df71-e1cd-4358-9166-a110d39e9c03",
+      "role": "user",
+      "content": "t\\",
+      "timestamp": "2026-03-29T06:20:54.560Z"
+    },
+    {
+      "session_id": "a194df71-e1cd-4358-9166-a110d39e9c03",
+      "role": "ai",
+      "content": "I'm sorry, your question seems incomplete. Could you please rephrase it?",
+      "timestamp": "2026-03-29T06:20:54.562Z"
+    },
+    {
+      "session_id": "a194df71-e1cd-4358-9166-a110d39e9c03",
+      "role": "user",
+      "content": "hi",
+      "timestamp": "2026-03-29T06:21:02.842Z"
+    },
+    {
+      "session_id": "a194df71-e1cd-4358-9166-a110d39e9c03",
+      "role": "ai",
+      "content": "Hello! How can I help you today?",
+      "timestamp": "2026-03-29T06:21:02.844Z"
+    },
+    {
+      "session_id": "9ebfe0c2-7475-499d-9af5-a41e1be5ea31",
+      "role": "user",
+      "content": "hloo",
+      "timestamp": "2026-03-29T16:57:08.569Z"
+    },
+    {
+      "session_id": "9ebfe0c2-7475-499d-9af5-a41e1be5ea31",
+      "role": "ai",
+      "content": "Hello! How can I assist you today regarding your prescription?",
+      "timestamp": "2026-03-29T16:57:08.573Z"
+    },
+    {
+      "session_id": "4a9f162b-16ab-47aa-8cfa-38334be8beb5",
+      "role": "user",
+      "content": "hi",
+      "timestamp": "2026-04-01T19:08:41.058Z"
+    },
+    {
+      "session_id": "4a9f162b-16ab-47aa-8cfa-38334be8beb5",
+      "role": "ai",
+      "content": "Hello! How can I help you today regarding your prescriptions?",
+      "timestamp": "2026-04-01T19:08:41.060Z"
+    },
+    {
+      "session_id": "4a9f162b-16ab-47aa-8cfa-38334be8beb5",
+      "role": "user",
+      "content": "Please Explain me more Detailed About This Medicine.",
+      "timestamp": "2026-04-01T20:08:18.714Z"
+    },
+    {
+      "session_id": "4a9f162b-16ab-47aa-8cfa-38334be8beb5",
+      "role": "ai",
+      "content": "Amoxicillin 500mg Cap:\n*   **Specific Instructions:** Take 1 capsule in the morning, 1 capsule in the afternoon, and 1 capsule at night for 7 days.\n*   **General Medical Knowledge:** Amoxicillin is an antibiotic commonly used to treat a wide range of bacterial infections, such as ear infections, strep throat, pneumonia, and urinary tract infections.",
+      "timestamp": "2026-04-01T20:08:18.717Z"
+    },
+    {
+      "session_id": "4a9f162b-16ab-47aa-8cfa-38334be8beb5",
+      "role": "user",
+      "content": "So What Food Should I Have to intake?",
+      "timestamp": "2026-04-01T20:09:30.810Z"
+    },
+    {
+      "session_id": "4a9f162b-16ab-47aa-8cfa-38334be8beb5",
+      "role": "ai",
+      "content": "The provided prescription and chat history do not contain any information about specific food intake or dietary recommendations.",
+      "timestamp": "2026-04-01T20:09:30.813Z"
+    },
+    {
+      "session_id": "4a9f162b-16ab-47aa-8cfa-38334be8beb5",
+      "role": "user",
+      "content": "to kyaa ye dawa me kewal Subhe or Syam ko le sakta hu bass?",
+      "timestamp": "2026-04-01T20:14:10.344Z"
+    },
+    {
+      "session_id": "4a9f162b-16ab-47aa-8cfa-38334be8beb5",
+      "role": "ai",
+      "content": "No, according to the prescription, you should take Amoxicillin 500mg Cap in the morning, afternoon, and night for 7 days. It is not recommended to only take it in the morning and evening.",
+      "timestamp": "2026-04-01T20:14:10.347Z"
+    },
+    {
+      "session_id": "4a9f162b-16ab-47aa-8cfa-38334be8beb5",
+      "role": "user",
+      "content": "Okay Thanks",
+      "timestamp": "2026-04-01T20:14:47.421Z"
+    },
+    {
+      "session_id": "4a9f162b-16ab-47aa-8cfa-38334be8beb5",
+      "role": "ai",
+      "content": "You're welcome! Let me know if you have any other questions.",
+      "timestamp": "2026-04-01T20:14:47.424Z"
+    },
+    {
+      "session_id": "4a9f162b-16ab-47aa-8cfa-38334be8beb5",
+      "role": "user",
+      "content": "हेलो",
+      "timestamp": "2026-04-01T20:33:59.907Z"
+    },
+    {
+      "session_id": "4a9f162b-16ab-47aa-8cfa-38334be8beb5",
+      "role": "ai",
+      "content": "Hello! How can I help you today?",
+      "timestamp": "2026-04-01T20:33:59.910Z"
+    },
+    {
+      "session_id": "4a9f162b-16ab-47aa-8cfa-38334be8beb5",
+      "role": "user",
+      "content": "hi",
+      "timestamp": "2026-04-30T12:12:00.340Z"
+    },
+    {
+      "session_id": "4a9f162b-16ab-47aa-8cfa-38334be8beb5",
+      "role": "ai",
+      "content": "Hi there! How can I help you today?",
+      "timestamp": "2026-04-30T12:12:00.344Z"
+    },
+    {
+      "session_id": "a194df71-e1cd-4358-9166-a110d39e9c03",
+      "role": "user",
+      "content": "hloo",
+      "timestamp": "2026-05-01T19:37:15.323Z"
+    },
+    {
+      "session_id": "a194df71-e1cd-4358-9166-a110d39e9c03",
+      "role": "ai",
+      "content": "Error generating answer.",
+      "timestamp": "2026-05-01T19:37:15.326Z"
+    }
+  ]
+}

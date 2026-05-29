@@ -1,0 +1,90 @@
+{
+  "sessions": [
+    {
+      "session_id": "dda81c08-713f-4b40-a6ec-1879db415e8b",
+      "user_id": "testuser",
+      "prescription_id": "8554002b-665c-4fc6-91a9-80f5799fbda8",
+      "summary": "",
+      "created_at": "2026-03-29T03:17:25.418Z",
+      "last_active": "2026-03-29T03:17:25.418Z",
+      "title": "Prescription IMG_20260320_111211.jpg.jpeg",
+      "filename": "IMG_20260320_111211.jpg.jpeg"
+    },
+    {
+      "session_id": "06c5acdc-7fa5-494e-ae81-b3be3c4d5c0a",
+      "user_id": "Harshvardhan",
+      "prescription_id": "1c5d11f5-8ca9-4cf8-be74-fc62f7d533ea",
+      "summary": "",
+      "created_at": "2026-03-29T06:00:09.324Z",
+      "last_active": "2026-03-29T06:00:30.764Z",
+      "title": "Prescription: MC VSOP Brandy",
+      "filename": "22.jpg",
+      "details": "- MC VSOP Brandy (Qty: 60ml): Morning: No, Afternoon: No, Night: Yes, Instruction: with soda, with Roasted Peanut, Freq: 3 times, Duration: -"
+    },
+    {
+      "session_id": "a194df71-e1cd-4358-9166-a110d39e9c03",
+      "user_id": "Harshvardhan",
+      "prescription_id": "38549c4e-aa74-4946-a480-5e9c1d4e5b94",
+      "summary": "",
+      "created_at": "2026-03-29T06:14:13.033Z",
+      "last_active": "2026-05-01T19:37:15.327Z",
+      "title": "Prescription: Tab. Augmentin 625mg, Tab. Enzoflam...",
+      "filename": "11.jpg",
+      "details": "- Tab. Augmentin 625mg (Qty: 1 tablet): Morning: Yes, Afternoon: No, Night: Yes, Instruction: After meal, Freq: 1-0-1, Duration: 5 days\n- Tab. Enzoflam (Qty: 1 tablet): Morning: Yes, Afternoon: No, Night: Yes, Instruction: After meal, Freq: 1-0-1, Duration: 5 days\n- Tab. Pan D 40mg (Qty: 1 tablet): Morning: Yes, Afternoon: No, Night: No, Instruction: Before meal, Freq: 1-0-0, Duration: 5 days\n- Hexigel gum paint (Qty: -): Morning: Yes, Afternoon: No, Night: Yes, Instruction: Apply topically with massage, Freq: 1-0-1, Duration: 1 week",
+      "otc_result": {
+        "otc_medicines": [],
+        "consult_medicines": [
+          {
+            "name": "- Tab. Augmentin 625mg",
+            "reason": "No matching approved OTC medicine found in database."
+          },
+          {
+            "name": "- Tab. Enzoflam",
+            "reason": "No matching approved OTC medicine found in database."
+          },
+          {
+            "name": "- Tab. Pan D 40mg",
+            "reason": "No matching approved OTC medicine found in database."
+          },
+          {
+            "name": "- Hexigel gum paint",
+            "reason": "No matching approved OTC medicine found in database."
+          }
+        ]
+      }
+    },
+    {
+      "session_id": "0082e358-7527-4e25-8134-733bd8232002",
+      "user_id": "Harshvardhan",
+      "prescription_id": "c1e40b5b-dbdc-45ec-b235-d0ea29c430a9",
+      "summary": "",
+      "created_at": "2026-03-29T06:38:20.521Z",
+      "last_active": "2026-03-29T06:38:20.521Z",
+      "title": "Prescription: Dilaudid, Dilaudid...",
+      "filename": "33.jpg",
+      "details": "- Dilaudid (Qty: 50 tablets (4 mg each)): Morning: No, Afternoon: No, Night: No, Instruction: -, Freq: -, Duration: -\n- Dilaudid (Qty: 20 cc (2 mg solution)): Morning: No, Afternoon: No, Night: No, Instruction: -, Freq: -, Duration: -\n- Quaalude (Qty: 150 tablets (300 mg each)): Morning: No, Afternoon: No, Night: No, Instruction: -, Freq: -, Duration: -\n- Dexedrine (Qty: 100 tablets (5 mg each)): Morning: No, Afternoon: No, Night: No, Instruction: -, Freq: -, Duration: -\n- Percodan (Qty: 100 tablets): Morning: No, Afternoon: No, Night: No, Instruction: -, Freq: -, Duration: -\n- Amytal (Qty: 100 capsules (3 gram each)): Morning: No, Afternoon: No, Night: No, Instruction: -, Freq: -, Duration: -\n- Amytal (Qty: 12 half gram ampules): Morning: No, Afternoon: No, Night: No, Instruction: -, Freq: -, Duration: -\n- Biphetamine (Qty: 100 spansules (20 mg each)): Morning: No, Afternoon: No, Night: No, Instruction: -, Freq: -, Duration: -"
+    },
+    {
+      "session_id": "4a9f162b-16ab-47aa-8cfa-38334be8beb5",
+      "user_id": "Harshvardhan",
+      "prescription_id": "902d896d-af6e-498c-84dd-0de0776abd21",
+      "summary": "",
+      "created_at": "2026-03-29T06:42:52.707Z",
+      "last_active": "2026-04-30T12:12:00.345Z",
+      "title": "Prescription: Amoxicillin 500mg Cap",
+      "filename": "11042_2020_10151_Fig1_HTML.png",
+      "details": "- Amoxicillin 500mg Cap (Qty: 1 cap): Morning: Yes, Afternoon: Yes, Night: Yes, Instruction: -, Freq: 1-1-1, Duration: 7 days"
+    },
+    {
+      "session_id": "9ebfe0c2-7475-499d-9af5-a41e1be5ea31",
+      "user_id": "Rahul Sharma",
+      "prescription_id": "841a02c0-ba8b-4c37-854c-fa1652969a65",
+      "summary": "",
+      "created_at": "2026-03-29T16:56:54.878Z",
+      "last_active": "2026-03-29T16:57:08.573Z",
+      "title": "Prescription: Tab. Enzoflam, Tab. Pan D 40mg...",
+      "filename": "11.jpg",
+      "details": "- Tab. Enzoflam (Qty: 1 tablet): Morning: Yes, Afternoon: No, Night: Yes, Instruction: After meal, Freq: 1-0-1, Duration: 5 days\n- Tab. Pan D 40mg (Qty: 1 tablet): Morning: Yes, Afternoon: No, Night: No, Instruction: Before meal, Freq: 1-0-0, Duration: 5 days\n- Hexigel gum paint (Qty: -): Morning: Yes, Afternoon: No, Night: Yes, Instruction: Apply with massage, Freq: 1-0-1, Duration: 1 week"
+    }
+  ]
+}
