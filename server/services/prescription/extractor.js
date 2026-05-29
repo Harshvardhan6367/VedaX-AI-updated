@@ -15,6 +15,15 @@ export class PrescriptionExtractor {
         }
     }
 
+    parseJSONResponse(text) {
+        if (text.includes("```json")) {
+            text = text.split("```json")[1].split("```")[0];
+        } else if (text.includes("```")) {
+            text = text.split("```")[1].split("```")[0];
+        }
+        return JSON.parse(text.trim());
+    }
+
     async extractData(filePath) {
         const prompt = `
         You are an expert medical assistant. Analyze this prescription and extract the following information in JSON format.
@@ -59,16 +68,50 @@ export class PrescriptionExtractor {
                 throw new Error("Unsupported file format for extraction.");
             }
 
-            const response = await this.model.generateContent(contents);
-            let text = response.response.text();
-            
-            if (text.includes("```json")) {
-                text = text.split("```json")[1].split("```")[0];
-            } else if (text.includes("```")) {
-                text = text.split("```")[1].split("```")[0];
+            // 1. Try Vertex AI first (if GCP credentials exist)
+            if (Config.GCP_PROJECT_ID) {
+                try {
+                    logger.info("Attempting extraction using Vertex AI...");
+                    const { VertexAI } = await import('@google-cloud/vertexai');
+                    const vertexAi = new VertexAI({ project: Config.GCP_PROJECT_ID, location: Config.GCP_LOCATION });
+                    const modelName = Config.GEMINI_MODEL || 'gemini-2.5-pro';
+                    const vertexModel = vertexAi.getGenerativeModel({ model: modelName });
+                    
+                    const response = await vertexModel.generateContent({ contents });
+                    let text = '';
+                    const parts = response.response.candidates?.[0]?.content?.parts || [];
+                    text = parts.map(p => p.text).filter(Boolean).join('');
+                    
+                    if (text) {
+                        logger.info("Extraction successful via Vertex AI!");
+                        return this.parseJSONResponse(text);
+                    }
+                } catch (err) {
+                    logger.error(`Vertex AI extraction failed: ${err.message}. Falling back to Gemini API...`);
+                }
             }
-            
-            return JSON.parse(text.trim());
+
+            // 2. Try Gemini API fallback (original method)
+            if (Config.GOOGLE_API_KEY) {
+                try {
+                    logger.info("Attempting extraction using Gemini API...");
+                    if (!this.model) {
+                        this.genai = new GoogleGenerativeAI(Config.GOOGLE_API_KEY);
+                        this.model = this.genai.getGenerativeModel({ model: Config.GEMINI_MODEL_NAME || 'gemini-2.5-pro' });
+                    }
+                    const response = await this.model.generateContent(contents);
+                    let text = response.response.text();
+                    if (text) {
+                        logger.info("Extraction successful via Gemini API!");
+                        return this.parseJSONResponse(text);
+                    }
+                } catch (err) {
+                    logger.error(`Gemini API extraction failed: ${err.message}`);
+                    throw err;
+                }
+            }
+
+            throw new Error("No configured AI providers (Vertex AI or Gemini API Key) succeeded.");
 
         } catch (error) {
             logger.error(`Extraction failed: ${error}`);
